@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/noghostblock/mixin/ClientPlayerInteractionManagerMixin": {
+      "breakBlock": "Lnet/minecraft/class_636;method_2899(Lnet/minecraft/class_2338;)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/noghostblock/mixin/ClientPlayerInteractionManagerMixin": {
+        "breakBlock": "Lnet/minecraft/class_636;method_2899(Lnet/minecraft/class_2338;)Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "noghostblock",
+  "version": "1.0.0",
+  "name": "NoGhostBlock",
+  "description": "Fixes ghost blocks automatically and via /ghost command",
+  "authors": ["_MrLisick_"],
+  "icon": "assets/icon.png",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.noghostblock.client.NoghostblockClient"
+    ]
+  },
+  "mixins": [
+    "noghostblock.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
